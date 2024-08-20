@@ -4,11 +4,12 @@ public class forloop {
 	
 	public static void main(String[] args) {
 		
-		int i;
-		for(i=1;i<=100;i++) {
+		
+		for(int i=1,j=4;i<=1000;i=i*5,j++) {
 			
-			System.out.println(i);
+		System.out.println(i+" "+j);
 		}
+		
 	}
 
 }

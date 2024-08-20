@@ -8,13 +8,15 @@ public class String1_practice {
 		
 		int index=email.indexOf("@");
 		
-		String str=email.substring(0,index);
+		String username=email.substring(0,index);
 		
-		String str1=email.substring(index+1);
+		String domain=email.substring(index+1);
 		
-		System.out.println(str);
+		System.out.println(username);
 		
-		System.out.println(str1);
+		System.out.println(domain);
+		
+		System.out.println(domain.startsWith("gmail"));
 		
 	}
 
