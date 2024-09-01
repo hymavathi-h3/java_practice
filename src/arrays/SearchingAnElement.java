@@ -9,6 +9,7 @@ public class SearchingAnElement {
 		for(int i=0;i<a.length;i++) {
 			if(key==a[i]) {
 				System.out.println("Element found at index "+i);
+				System.exit(0);
 			}
 		}
 	}

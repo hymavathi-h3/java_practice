@@ -12,11 +12,21 @@ public class AddingTwoMatrices {
 				c[i][j] = a[i][j] + b[i][j];
 			}
 		}
-		for (int i = 0; i < 2; i++) {
-			for (int j = 0; j < 2; j++) {
-				System.out.print(c[i][j]+" ");
+//		for (int i = 0; i < 2; i++) {
+//			for (int j = 0; j < 2; j++) {
+//				System.out.printf("%03d ",c[i][j]);
+//			}
+//			System.out.println();
+//		}
+		for(int x[]:c) {
+			
+			for(int y:x) {
+				
+				System.out.printf("%03d ",y);
+				
 			}
 			System.out.println();
+			
 		}
 
 	}
