@@ -35,9 +35,9 @@ public class Cylinder {
 		c.radius = 3;
 		c.height = 6;
 		System.out.printf("LidArea: %.2f\n", c.lidArea());
-		System.out.printf(" Surfacearea: %.2f\n",c.SurfaceArea());
-		System.out.printf(" Volume: %.2f\n",c.Volume());
-		System.out.printf(" Circumference: %.2f",c.Circumference());
+		System.out.printf("Surfacearea: %.2f\n",c.SurfaceArea());
+		System.out.printf("Volume: %.2f\n",c.Volume());
+		System.out.printf("Circumference: %.2f",c.Circumference());
 
 	}
 
